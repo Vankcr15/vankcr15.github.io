@@ -10,18 +10,6 @@
             color:rgb(238, 144, 3)
         }
     </style>
-    <script>
-        function changeColor(){
-            let txtItem = document.getElementById("Heading");
-            txtItem.style.color = "red";
-
-        }
-
-        let btn = document.getElementById("colorButton");
-        btn.addEventListener("click",function(){ changeColor(); }); <!--broken-->
-        
-
-    </script>
     <body>
         <h1 id="Heading">Things I like:</h1>
         <ul>
@@ -29,6 +17,5 @@
             <li><em>long walks on the beach</em></li>
             <li><mark>indentations in python</mark></li>
         </ul>
-        <button id="colorButton" : style="width:fit-content; height: fit-content;">Change Color</button>
     </body>
 </html>
